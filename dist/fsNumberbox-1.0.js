@@ -2,7 +2,6 @@
 *  fsNumberbox v1.0.0 - jQuery 
 *  (c) 2012 William da Mota
 *
-*  http://www.friendship.com.br
 *  fsNumerbox for jQuery is freely distributable under the terms of an MIT-style license.
 *  For details, see the web site: https://github.com/WilliamGMota/fsNumberbox.git
 */
