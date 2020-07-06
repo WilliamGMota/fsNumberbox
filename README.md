@@ -16,7 +16,6 @@ The standard fsNumberbox.js file is around 8KB when minified.
 | length            | 16      | Number of digits of thousands.                                      |
 | decimals          | 2       | Number of digits of decimal.                                        |
 | allownegative     | false   | Boolean value indicating if should be allow negatives values.       |
-|-------------------|---------|---------------------------------------------------------------------|
 
 
 ## Usage
