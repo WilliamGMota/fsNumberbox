@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>fsNumerbox Samples</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="fsNumberbox-1.0.min.js"></script> 
+	</head>
+	<body>
+		<h1>fsNumberbox for JQuery - Samples</h1>
+		<div style="margin-top: 10px;">
+			<label>Integer (9.999.999.999):</label>
+			<input id="IntegerNumberbox" type="text" value="0"/>
+		</div>
+		<div style="margin-top: 10px;">
+			<label>Integer (9,999,999,999):</label>
+			<input id="IntegerCommaNumberbox" type="text" value="0"/>
+		</div>
+		<div style="margin-top: 10px;">
+			<label>Money (999.999.999.999,99):</label>
+			<input id="moneyNumberbox" type="text" value="0,00"/>
+		</div>
+		<div style="margin-top: 10px;">
+			<label>Money (999,999,999,999.99):</label>
+			<input id="moneyCommaNumberbox" type="text" value="0.00"/>
+		</div>
+		
+		<script type="text/javascript">
+		    $(document).ready(function() {
+		        $("#IntegerNumberbox").fsNumberbox({ length: 10, decimals: 0 });
+		        $("#IntegerCommaNumberbox").fsNumberbox({ digitgroupsymbol: ',', decimalsymbol: '.', length: 10, decimals: 0 });
+		        $("#moneyNumberbox").fsNumberbox({ length: 14, decimals: 2 });
+		        $("#moneyCommaNumberbox").fsNumberbox({ digitgroupsymbol: ',', decimalsymbol: '.', length: 14, decimals: 2 });
+		    });
+		</script>
+	</body>
+</html>
